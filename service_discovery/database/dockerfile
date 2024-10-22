@@ -1,0 +1,9 @@
+FROM redis:latest
+
+ARG PASS
+
+EXPOSE 6379
+
+RUN echo "requirepass ${PASS}" >> /etc/redis.conf
+
+CMD ["redis-server", "/etc/redis.conf"]
