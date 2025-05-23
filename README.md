@@ -1,6 +1,6 @@
-# Service Discovery in Go Using RPC
+# Mini Kube Discovery
 
-This project demonstrates a Service Discovery mechanism in Golang using the built-in RPC (Remote Procedure Call) protocol. It consists of multiple services, including `Order Service`, `Product Service`, and `Service Discovery`. Each service must register with the `Service Discovery` service, monitor its health, and dynamically discover other services for interaction.
+`Mini-kube-discovery` is a lightweight, Kubernetes-inspired service discovery system built in Go using native RPC. It replicates key behaviors of Kubernetes, like dynamic service registration, health monitoring, and inter-service discovery
 
 ## Project Structure
 
